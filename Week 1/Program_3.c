@@ -1,5 +1,5 @@
-/* Q - Use wait()/waitpid() to print the exit status of a child process. Explain, with an example, the difference
-between a zombie process and an orphan process. */
+/* Q - Write a C program that creates a child process using fork(). The child process should execute the ls -l command using execlp(), 
+while the parent waits for the child to finish using wait(). */
 
 #include <stdio.h>
 #include <unistd.h>
