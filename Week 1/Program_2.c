@@ -1,4 +1,4 @@
-// Multiple fork() calls (process tree)
+/*Q- Write a C program using two sequential fork() calls. Predict the number of processes created, draw the process tree, and verify the output.*/
 
 #include <stdio.h>
 #include <unistd.h>
