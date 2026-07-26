@@ -1,4 +1,5 @@
-// Basic fork()
+/*Q- Write a C program to create a child process using the fork() system call and display the Process ID (PID) of both the parent and child 
+processes. */
 
 #include <stdio.h>
 #include <unistd.h>
